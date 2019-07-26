@@ -7,31 +7,79 @@
     <title>Delani Studio poject</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css" >
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../../Downloads/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
   </head>
   <body>
-    <div id="container">
-        <img id="logo" src="image/logo.png" style="margin-top:12%;margin-left:44%;"> 
-        <br>
-
-        <h1 style="margin-top:7%;">WELCOME</h1>
+    <div class="container">
+      <div class="col-sm-12">
+        <div id="one">
         
-        <h1>TO DELANI STUDIO</h1>
-        
-        <h2 style="font-size:10px;text-align: center;">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
+          <img id="logo" src="image/logo.png" style="margin-top:17%;margin-left:50%;"> 
+          <br>
+
+          <h1 style="margin-top:4%;">WELCOME</h1>
+          
+          <h1>TO DELANI STUDIO</h1>
+          
+          <h2 style="font-size:10px;text-align: center;">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
+          <br>
+          <img id="mouse" src="image/mouse_click.png" style=" margin-top:7%;margin-left:53%;">
+
+        </div>
         <br>
-        <img id="mouse" src="image/mouse_click.png" style=" margin-top:7%;margin-left:46%;">
+        <div id="about">
+          <h3 style="font-family: 'Roboto', sans-serif;">ABOUT US</h3>
+          <p>When you work with us,you are part of a team of committed collaborators. 
+          All aspects of our software development process are integrated,interactive and agile.</p>
 
+          <p>Our approach unifies design,development and product management to create exceptional products.
+          We start each project by understanding your business goal,the user's needs and the product requirements.
+          Then we help translate them into effective and elegant solutions. </p>
+
+        </div>
+        <br>
+        <div id="well">
+          <h4 style="text-align: center;line-height:6;">SERVICES</h4>
+          <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.
+          The outcome of this scoping session is a proposal or high-level statement of work.
+          based on your requirements, we can provide a complete offering or just the pieces you need.</p> 
+        </div>
+        <br>
+        <div id="do">
+        <div class="row">
+          <h6 style="text-align: center;">WHAT WE DO</h6>
+          <br>
+          <div class="col-sm-4">
+            <img class="img1" src="image/design_icon.png" style="margin-left: 55px;">
+            <br>
+            <h5 style="margin-left: 55px;">DESIGN</h5>
+            <br>
+            <p class="des" style="display: none;">Our design practice offers a full range of services including brand strategy,interaction and visual
+            design and user experience testing. Throughout your project,our designers create and implement visual design 
+            and workflows;solicit user feedback and work with you to make sure what gets built is what's needed.</p>  
+          </div>
+          <div class="col-sm-4">
+              <img class="img2" src="image/dev_icon.png" style="margin-left: 55px;">
+              <br>
+              <h5 style="margin-left: 55px;">DEVELOPMENT</h5>
+              <br>
+              <p class="dev" style="display: none;">All engineers are fluent in the latest entreprise,mobile and web development technologies.They
+              collaborate with your team to write,and improve code on a daily basis,using proven practices such as
+              test-driven development and pair programming.</p>   
+            </div>
+            <div class="col-sm-4">
+              <img class="img3" src="image/product_icon.png" style="margin-left: 55px;">
+              <br>
+              <h5 style="margin-left: 55px;">PRODUCT MANAGEMENT</h5>
+              <br>
+              <p class="prod" style="display: none;">Planning and development is iterative.Because we are constantly coding and testing,the products we build are
+              always ready to go live.This iterative process allows changes as business requirements evolve.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="about">
-      <h3 style="font-family: 'Roboto', sans-serif;">ABOUT US</h3>
-      <p>When you work with us,you are part of a team of committed collaborators. 
-      All aspects of our software development process are integrated,interactive and agile.</p>
-
-      <p>Our approach unifies design,development and product management to create exceptional products.
-      We start each project by understanding your business goal,the user's needs and the product requirements.
-      Then we help translate them into effective and elegant solutions. </p>
-
-    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
