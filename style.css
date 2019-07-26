@@ -27,6 +27,15 @@ p{
   background-size:cover;
   color: white;
 }
-.row{
- justify-content: space-between;
+#contact{
+  background-image: url(image/c_image.jpg);
+  height: 400px;
+}
+#form{
+  background-color: unset;
+  margin-left:5%;
+}
+h8{
+  line-height:3;
+  margin-left:40%;
 }
