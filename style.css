@@ -29,13 +29,25 @@ p{
 }
 #contact{
   background-image: url(image/c_image.jpg);
-  height: 400px;
+  height: 450px;
+  margin-top:4%;
 }
 #form{
   background-color: unset;
-  margin-left:5%;
+  
 }
 h8{
   line-height:3;
   margin-left:40%;
+}
+::placeholder{
+  color:white;
+}
+#social{
+  margin-top:2%;
+  margin-left:7%;
+}
+#foot{
+  text-align:center;
+  margin-top:2%;
 }
