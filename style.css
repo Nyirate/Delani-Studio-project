@@ -1,4 +1,25 @@
-body{
+/* Extra small */
+@media only screen and (max-width:600px){
+
+}
+/* Small */
+@media only screen and (min-width:600px){
+
+}
+/* Medium */
+@media only screen and (min-width:768px){
+
+}
+/* Large */
+@media only screen and (min-width:992px){
+
+}
+/* Extra */
+@media only screen and (min-width:1200px){
+
+}
+
+body{ 
   margin:0;
   border:0;
   padding:0;
@@ -36,6 +57,19 @@ p{
   background-color: unset;
   
 }
+#name{
+  background-color: unset;
+  
+}
+#mail{
+  background-color: unset;
+  
+}
+#msg{
+  background-color: unset;
+  
+}
+
 h8{
   line-height:3;
   margin-left:40%;
@@ -108,6 +142,7 @@ h8{
   border:2px solid black;
   height:90%;
   width:60%;
+  display:none;
 }
 .word3{
   margin-left:70px;
@@ -117,6 +152,7 @@ h8{
   border:2px solid black;
   height:90%;
   width:60%;
+  display:none;
 }
 .word6{
   margin-left:70px;
@@ -126,6 +162,7 @@ h8{
   border:2px solid black;
   height:90%;
   width:60%;
+  display:none;
 }
 .word5,.word7,.word8{
   margin-left:70px;
@@ -135,5 +172,6 @@ h8{
   border:2px solid black;
   height:90%;
   width:60%;
+  display:none;
   
 }
