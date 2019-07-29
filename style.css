@@ -70,10 +70,6 @@ p{
   
 }
 
-h8{
-  line-height:3;
-  margin-left:40%;
-}
 ::placeholder{
   color:white;
 }
@@ -85,93 +81,35 @@ h8{
   text-align:center;
   margin-top:2%;
 }
-.img4{
-  background-image:url(image/work4.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img3{
-  background-image:url(image/work3.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-}
-.img2{
-  background-image:url(image/work2.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img1{
-  background-image:url(image/work1.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img5{
-  background-image:url(image/work5.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img6{
-  background-image:url(image/work6.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img7{
-  background-image:url(image/work7.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.img8{
-  background-image:url(image/work8.jpg);
-  height:220px;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.word1,.word2,.word4{
-  margin-left:70px;
-  font-weight:bold;
-  padding-top:30%;
-  color:white;
-  border:2px solid black;
-  height:90%;
-  width:60%;
-  display:none;
-}
-.word3{
-  margin-left:70px;
-  font-weight:bold;
-  padding-top:30%;
+.word1,.word2,.word3,.word4{
+   display:none; 
   color:black;
-  border:2px solid black;
-  height:90%;
-  width:60%;
-  display:none;
-}
-.word6{
-  margin-left:70px;
+  opacity:1;
+  position: absolute;
+  top:40%;
+  margin-left:20%;
   font-weight:bold;
-  padding-top:30%;
+  border:2px solid black;
+  width:100px;
+  height:80px;
+}
+.word5,.word6,.word7,.word8{
+  display:none;
   color:black;
-  border:2px solid black;
-  height:90%;
-  width:60%;
-  display:none;
-}
-.word5,.word7,.word8{
-  margin-left:70px;
+  opacity:1;
+  position:absolute;
+  top:40%;
+  margin-left:20%;
   font-weight:bold;
-  padding-top:30%;
-  color:white;
   border:2px solid black;
-  height:90%;
-  width:60%;
-  display:none;
-  
+  width:100px;
+  height:80px;
+}
+.img1,.img2,.img3,.img4{
+  width:250px;
+  position: relative;
+}
+.img5,.img6,.img7,.img8{
+  width:250px;
+  position: relative;
 }
