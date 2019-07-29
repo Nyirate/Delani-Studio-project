@@ -29,7 +29,7 @@
 
 # Technologies Used
 
-  HTML and CSS 
+  HTML and CSS and Javascript
   VSC as text editor
   Github as a cloud
 
